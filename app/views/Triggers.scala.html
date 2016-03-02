@@ -1,0 +1,29 @@
+@main("Triggers"){
+  @top_bar("")
+  @navbar("Triggers")
+  <div class="container well">
+    <h1 class="text-center">Some help for you :-)</h1>
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#Topbar">Top bar</a></li>
+      <li><a data-toggle="tab" href="#tabpane">tabpane</a></li>
+      <li><a data-toggle="tab" href="#others">Others</a></li>
+      <li><a data-toggle="tab" href="#others1">Others</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <div id="Topbar" class="tab-pane fade in active ">
+        <div class="col-lg-offset-2"><img src="@routes.Assets.at("images/top-bar.png")" class="img-thumbnail"> </div>
+      </div>
+      <div id="tabpane" class="tab-pane fade">
+        <div class="col-lg-offset-2">  <img src="@routes.Assets.at("images/tab-pane.png")" class="img-thumbnail"></div>
+      </div>
+      <div id="others" class="tab-pane fade">
+        <h3>Menu 2</h3>
+        <p>Some content in menu 2.</p>
+      </div>
+      <div id="others1" class="tab-pane fade">
+        <h3>Menu 2</h3>
+        <p>Some content in menu 2.</p>
+      </div>
+    </div></div>
+}
